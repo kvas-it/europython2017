@@ -15,4 +15,3 @@
     graphs).
   - https://software.intel.com/en-us/ai/deep-learning
   - https://github.com/NervanaSystems/neon - Neural network library.
-

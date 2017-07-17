@@ -6,13 +6,13 @@
 
 - Apartment or Car market websites:
   - It's easy to find something exact, but
-  - If you don't know what you want, it's a bad UI.
+  - If you don't know what you want, the UI doesn't help you.
 - How do we get the overview of a data set?
 - Date -> Concept -> Visual design + Presentation
 - Use some of the properties of the data to help the visualisation:
   - E.g. Iraq death toll bloody barchart
 
-- What do people like interesting?
+- What do people find interesting?
   - Different between people
   - Changes with time
 

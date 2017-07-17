@@ -5,5 +5,7 @@
 - Lots of examples about stereotyping women and minorities in programmer
   community, musicians, during hiring, during tech conferences.
 
-- Actively counteract the biases when you're meeting people, when you're
-  hiring, etc.
+- Advice:
+  - Be aware of the biases and watch out for them.
+  - Actively counteract the biases when you're meeting people, when you're
+    hiring, etc.

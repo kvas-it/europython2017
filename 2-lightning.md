@@ -76,7 +76,7 @@
 - Questions about experience
   - Prove that you might be able to work on the project that you're working on,
   - I want to understand the project.
-- Positive attitute,
+- Positive attitude,
 - Evidence that you can solve problems and think about edge cases.
 - Ask in advance how you will be tested (as an interviewer: tell candidates).
 - Communication: friendly (also under stress), able to communicate technical

@@ -12,6 +12,8 @@
 
 # Run Python with warnings!
 
+- Do it! Warnings are good for you.
+
 - python3 -Wd -b
 - python2 -Wd -t -3
 
@@ -48,4 +50,12 @@
 - Python conference at San Sebastian.
 - Pyjok.es
 
-# 
+# Mocking
+
+- Mocking is good for you, use it!
+
+# PyConWeb (Munich)
+
+# Python Brasil (Belo Horizonte)
+
+# Sign up for next europython

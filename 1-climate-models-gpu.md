@@ -7,7 +7,7 @@
     - most transistors are in ALU, but you need very parallelisable algos,
   - FPGA
 - Lately Moore's Law stopped for single-thread performance but the number of
-  cores started going up a lot
+  cores is going up a lot
 - How do we utilise modern processors:
   - Directive-based tools in Fortran, ...
   - The processors have their own programming languages: CUDA, OpenCL, ISPC,...
@@ -22,5 +22,6 @@
   https://pypi.python.org/pypi/loo.py
 
 ## Q/A
+
 - How do you debug this? When the language is compiled, you don't have the line
   number information anymore.

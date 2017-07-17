@@ -19,4 +19,4 @@
   - Martin: for data processing Python is quite good. But when it gets to the
     actual game, that's a different story.
 
-...
+(I left to see another talk in the middle of the panel)

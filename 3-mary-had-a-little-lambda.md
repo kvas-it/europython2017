@@ -8,4 +8,4 @@
 - Booleans, conditionals and logic.
 - Lists, stuff.
 
-All of this is called Church Encoding.
+All of this is called Church Encoding and it actually works in Python.

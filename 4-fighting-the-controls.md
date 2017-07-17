@@ -1,6 +1,7 @@
 # Fighting the controls (programmers vs pilots) (Daniele Procida)
 
-- Pilots and programmers have some similar human judgement failure modes.
+- Pilots and programmers have some similar human judgement failure modes in
+  extreme situations.
   - Loss of situational awareness,
   - Panic,
   - Faulty mental models,
@@ -9,10 +10,10 @@
 - Similarity between pair programming and 2-pilot cockpit.
 - Programming is a creative craft kind of like writing, very unlike surgery.
 - Feedback is very quick.
-- Debugging is very private.
+- But debugging is very private.
 - So we are driven to the same short loop and we lose situational awareness
   because we're too busy fighting the controls.
-- When programmers have it, they look foolish, when pilots do it, they die, so
+- When programmers do it, they look foolish, when pilots do it, they die, so
   pilots figured out better ways to deal with it.
 
 # Mitigating loss of situational awareness in aviation
@@ -22,13 +23,15 @@ performed under stress and have minimal cognitive load.
 
 - Checklists (for normal operation and for emergency),
 - Communication, explain to another person what you're doing,
-- Stop. Doing nothing is sometimes better than doing random stuff in panic.
+- Stop (at least for a short while). Doing nothing is sometimes better than
+  doing random stuff in panic.
 
 # What can we do
 
 - We can adopt checklists,
-- Communicate explicitly,
-- Stop fighting the controls (in programming it's much more true than in
+- Communicate explicitly and with the intention to improve our understanding of
+  the situation,
+- Stop fighting the controls (in programming it's much cheaper than in
   piloting).
 
 # Q/A

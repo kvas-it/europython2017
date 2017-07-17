@@ -7,13 +7,13 @@
 - We automate jobs away -- are we responsible for the resulting degradation of
   life of those workers.
 - Joseph Weizenbaum, Elisa. His quote about computer as "fundamentally
-  conservative force".
+  conservative force" (socially conservative).
 - Technological progress sometimes enables continuing existing practice where
   otherwise social progress would be necessary.
 - Ole-Johan Dahl, Simula, work with Norvegian worker unions. Build stuff that
   allows people to influence their fate and stuff.
-- **Do we build technical stuff that works against our politics? If so, why do
-  we do that?**
+- Do we build technical stuff that works against our politics? If so, why do
+  we do that?
 - Andrey Ershov - education, computer literacy, make at art of computer
   programming public property!
 - BBN, ARPAnet:
@@ -28,7 +28,7 @@
 - Who is responsible?
 - How do we hold one another accountable?
 
-## Follow up
+## Follow up session
 
 ## General strategy
 

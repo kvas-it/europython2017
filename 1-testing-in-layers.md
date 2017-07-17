@@ -1,11 +1,12 @@
 # Testing in Layers (A. Martelli)
 
-http://www.aleax.it/europy17.pdf
+Slides: http://www.aleax.it/europy17.pdf
 
-- software system is a DAG (if you have cycles, fix that first),
+- software system is a directed acyclic graph of dependencies (if you have
+  cycles, fix that first),
 - how do we test it:
   - ancient way: white-box, black-box
-  - too-close modern way:
+  - modern way (mostly the same stuff):
     - unit-test: white-boxy, dev-focused
     - integration tests: end-to-end
       - sometimes needs needs a human, but then it's QA and not automated
@@ -17,21 +18,21 @@ http://www.aleax.it/europy17.pdf
       - you can autorun them on save via IDE.
   - higher layer tests: match the code layers
     - you can see it as pattern language
-- the fundametal things
+- the fundamental things
   - all tests must be reproducible
-    - if you have randomness, fix the seed
-    - if depends on time, fake time
+    - if you have randomness, pin the seed
+    - if depends on time, fake the time
   - test-driven approach to fixing bugs
-- for example testing DB adapter
+- example: testing a DB adapter
   - in unit-tests: mock the DB (just an object with all the methods)
   - 2nd layer tests: fake - a dummy implementation that replicates the behavior
   - for full integration test: start and populate a real DB
-  - if the DB, for example fails when any method of connection is called after
+  - if the DB, for example, fails when any method of connection is called after
     con.close()
     - fake must emulate this,
     - it would be good to program it into the mock as well, if you know it
 - Mocks vs Fakes
-  - MocksArentStubs.html from Martin Folwer
+  - https://martinfowler.com/articles/mocksArentStubs.html
   - a key issue: who owns/maintains it
     - A fake is usually maintained by the maintainers of the software itself,
       - sqlite has this
@@ -56,5 +57,3 @@ http://www.aleax.it/europy17.pdf
   - unit-tests must be fast: check only what can be checked fast
   - for everything else, check logs in detail
   - batch sanity checks on logs/snaps: good idea, including production
-
-

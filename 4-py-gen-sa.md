@@ -7,4 +7,4 @@
 
 - Can we do SA in parallel, sharing the emin and xmin between threads?
 - Can we compile the function using TensorFlow or Theano and then use those
-  frameworks, perhaps running the algo in parallel?
+  frameworks, perhaps running the algo in parallel on a GPU?

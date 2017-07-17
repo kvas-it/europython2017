@@ -2,24 +2,24 @@
 
 ## Intro and scope
 
-- General purpose computing,
-- Reflect on trade-offs.
-- Not about:
+- This is advice for general purpose computing,
+- There's no free lunch. We're mostly looking at trade-offs.
+- It's not about:
   - Numpy, Pandas,
   - Concurrency, caching.
 
-- Premature optimisation is the root of all evil in programming.
+- "Premature optimisation is the root of all evil in programming".
 
 ## Technology taxonomy
 
-- Perfection:
+- What we would really want:
   - Can run Python code directly,
   - Works with all python version and 3rd party libraries,
   - Free,
   - Bug free,
   - Easy to debug,
   - 100x faster.
-- In practice you'll be making trade-offs.
+- In practice this doesn't exist and we'll be making trade-offs.
 
 - No code change:
   - Cython without annotations (x1.3 without changes),
@@ -48,9 +48,10 @@
 
 - Technical criteria
   - Dependencies,
-  - Supported python version,
+  - Supported python versions,
   - Compatibility,
-  - Benchmarks: although all benchmarks are wrong because benchmarking is hard.
+  - Benchmarks: although all benchmarks are wrong because benchmarking is hard
+    to make representative.
 
 - Non-technical criteria
   - Ease of installation and deployment,

@@ -13,4 +13,4 @@
 
 ## References
 
-- Python for Data Analysis
+- Python for Data Analysis (http://shop.oreilly.com/product/0636920023784.do)

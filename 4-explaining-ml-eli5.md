@@ -11,20 +11,20 @@
   - Production
 - But the in the real world it's not so simple
   - How do we evaluate quality?
-  - Is it bugs, is it as good as it gets?
+  - Do we have bugs, or is the accuracy already as good as it gets?
   - Is the model reliable? Robust?
 - There's no silver bullet, but understanding the model helps.
 - Model example:
-  - You get some idea, but parameters are not commensuate, scales are
-    different.
+  - You get some idea from looking at the parameters of the model, but
+    parameters are not commensuate, scales are different.
   - For correlated variables, their weights can be distributed in any way.
 - eli5
-  - Knows how to extract coefficients from various models, etc.
+  - Knows how to extract coefficients from various models.
   - Can explain black box models with LIME algorithm.
   - Example with text classification where we can improve the model by seeing
     why it classifies the messages a certain way.
     - We can see irrelevant information being used,
-    - We can also see bugs in the library or in your own code.
+    - We can also see bugs in the library or in our own code.
 - We can also explain decision trees and tree ensembles.
 - Explaining random models:
   - Remove a feature (actually shuffle existing values), see what the model

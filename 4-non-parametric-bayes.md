@@ -7,16 +7,19 @@
   assumptions about the data, its amount and complexity.
 - Non-parametric models can adapt to changing structure of the data and
   increasing complexity and amount.
-  - Essentially this is achieved through infinite number of parameters.
+  - Essentially this is achieved through infinite number of parameters but at
+    any one time only a finite number of them is non-zero.
 
 ## Chinese restaurant process
 
-- Infinite number of tables,
+- https://en.wikipedia.org/wiki/Chinese_restaurant_process
+- Infinite number of tables (clusters), each of infinite capacity,
 - A sequence of customers entering and sitting down,
 - The first customer enters and sits at the first table,
-- Each subsequent one can join an existing table or take a new one
-  (probabilistically, depending on whow close they are?)
+- Each subsequent one can join an existing table or take a new one.
 - Eventually we infer the number of clusters and where they are from the data.
+  - This last point is a bit handwavy and I don't quite understand how random
+    seating method is combined with similarity to produce the clustering.
 
 ## Libraries in Python
 

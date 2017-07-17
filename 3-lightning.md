@@ -12,10 +12,9 @@
 
 # Micro wave
 
-- 1, 2, 3 -- part of something big
 - school.coala.io
 
 # Oliver working on Tox
 
-- Companies should return back the favours they get from OSS
-- 20% working on Tox
+- Companies should return back the favours they get from OSS.
+- I'm 20% working on Tox now.
